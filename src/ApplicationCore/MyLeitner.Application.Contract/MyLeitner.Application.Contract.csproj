@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Dela.Toolkit.Application">
+      <HintPath>..\..\..\..\..\..\..\Github\Dela.Toolkit\src\Dela.Toolkit.Application\bin\Release\net10.0\Dela.Toolkit.Application.dll</HintPath>
+    </Reference>
+    <Reference Include="Dela.Toolkit.Domain">
+      <HintPath>..\..\..\..\..\..\..\Github\Dela.Toolkit\src\Dela.Toolkit.Domain\bin\Release\net10.0\Dela.Toolkit.Domain.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
